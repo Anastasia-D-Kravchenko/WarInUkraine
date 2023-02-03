@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Спокій і мир</title>
+</head>
+<style>
+    body{
+        height: 800px;
+    }
+    h1::before {
+        content: "";
+        position: absolute;
+        left: 27%;
+        bottom: 13px;
+        width: 380px;
+        height: 17px;
+        transform: skew(77deg) translateX(-50%);
+        background: #e4df7b;
+        z-index: -1;
+    }
+    li {
+        font-weight: 100;
+    }
+    .op:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 7%);
+    z-index: -1;
+}
+.nava1{
+    background-image: url(img/61050331_605.jpg);
+}
+.nava1:hover,.ask:hover{
+    background-image: url(img/5_main.jpg);
+    background-size: cover;
+}
+</style>
+
+<body>
+    <form action="index4.html" class="form">
+        <button class="gradient-button_01" type="submit" style="margin: 0;position:fixed;border: none;"></button>
+    </form>
+    <div class="all">
+        <div class="container">
+            <header>
+                <h1 class="clishe" onmouseout="cli(0)">Підведемо підсумки</h1>
+                <div class="line"></div>
+                <div class="nava op" style="background-image:url(img/630_360_1673016980-840.jpg);margin-top: 0;z-index: 0;background-size: cover;"></div>
+            </header>
+        </div>
+        <nav class="closeDoor">
+            <div class="block">
+                <h2>від <br>Президента України</h2>
+            </div>
+            <div class="nava"></div>
+            <div class="nava1"></div>
+        </nav>
+        <div class="information">
+            <p class="closeDoor">«Цей рік почався 24 лютого. Різко. Рано. О четвертій годині. Було темно. Було гучно. Багатьом було складно, комусь – страшно. Минуло 311 днів. Нам усе ще може бути темно, гучно й складно. Але нам точно вже ніколи не буде страшно. І ніколи не буде соромно. Це був наш рік. 24 лютого ми прокинулись. Інші ми. Інший народ. Інші українці. Перші ракети остаточно зруйнували лабіринт ілюзій. Ми побачили, хто є хто. На що здатні друзі, вороги, а головне – на що здатні ми самі. 24 лютого мільйони з нас зробили вибір. Не білий прапор, а синьо-жовтий стяг. Не втеча, а зустріч. Зустріч ворога. Опір і боротьба. Ми не знаємо достеменно, що принесе нам новий, 2023-й, рік. Але готові до всього. Нові здобутки? Ми будемо щасливі. Нові удари? Ми будемо непохитні. Продовження боротьби? Будемо битися. А коли переможемо – будемо обійматися. Нехай усе це принесе новий рік. Ми готові за це боротися. Ось чому кожен із нас тут. Я тут. Ми тут. Ви тут. Усі тут. Ми всі – це Україна. 
+                Слава Україні!»</p>
+                <div id="myfirstvideo" class="closeDoor"><iframe width="820" height="486" src="https://www.youtube.com/embed/OGQWniiVvTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+        </div>
+        <div class="button look">
+            <div class="button__text">Слава Україні</div>
+            <div class="button__wrapper">
+                <div class="button__arrow"></div>
+                <div class="button__border-circle"></div>
+                <div class="button__mask-circle">
+                    <div class="button__small-circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
