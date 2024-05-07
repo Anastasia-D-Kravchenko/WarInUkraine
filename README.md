@@ -6,4 +6,4 @@ similar to this atmosphere. You will have the opportunity to see the most beauti
 first, and then what happened to them. What state Ukraine is in now. 
 I hope you will enjoy my work
 
-https://anastasia-d-kravchenko.github.io/War_In_Ukraine/Warrinukraine/index.html?
+https://anastasia-d-kravchenko.github.io/War_In_Ukraine/Warrinukraine/index.html
